@@ -1,0 +1,186 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container
+{
+    margin: auto;
+    width:100%;
+    background:linear-gradient(rgba(243, 7, 7, 0.5), rgba(255, 0, 0, 0.5)), url('/pics/IMG-20220522-WA0007.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.contents, .main-form
+{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 20px;
+    width: 40%;
+}
+
+
+.contents
+{
+
+    color: #fff;
+}
+
+.contents h2
+{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contents p
+{
+    margin: 3% 0 0 0;
+    text-align: justify;
+    padding: 0 0 0 35px;
+    font-size: .8rem;
+}
+
+.main-form
+{
+    background-color: #fff;
+}
+
+.main-form h3
+{
+    background-color: purple;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 15px;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 20px 20px;
+    line-height: 3;
+}
+
+.main-form form
+{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+     margin: 20px 30px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+.main-form form input[type=text], .main-form form input[type=submit]
+{
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(181, 177, 177);
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+.main-form form input[type=text]:focus, .main-form form input[type=submit]:focus
+{
+    padding: 10px 20px;
+    border: 1px solid rgb(181, 177, 177);
+    font-weight: 300;
+}
+
+
+.main-form form input[type=submit]
+{
+    background-color: rgba(34, 230, 8, 0.965);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+
+.main-form h5
+{
+    font-size: 10px;
+    color: rgb(128, 121, 121);
+    
+}
+
+.main-form h5 span
+{
+    color: red;
+
+}
+
+@media screen and (max-width: 768px) 
+ {
+
+    .contents h2
+    {
+        font-size: 2.1rem;
+        line-height: 1;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .contents p
+{
+    margin: 7% 0 0 0;
+    text-align: justify;
+    padding: 0 0 0 0px;
+    font-size: 1rem;
+}
+    
+
+  }
+
+
+@media screen and (max-width: 375px) {
+     .container{
+        background:linear-gradient(rgba(243, 7, 7, 0.5), rgba(255, 0, 0, 0.5)), url('/pics/IMG-20220522-WA0006.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+       display: flex;
+       flex-direction: column;
+       height: 100vh;
+       padding: 20px;
+    }
+
+    .contents
+    {
+        width: 100%;
+
+    }
+
+    .contents h2
+{
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+.main-form
+{
+    background-color: #fff;
+    width: 100%;
+}
+
+.main-form
+{
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+
+}
