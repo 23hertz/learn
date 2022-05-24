@@ -10,7 +10,7 @@
 {
     margin: auto;
     width:100%;
-    background:linear-gradient(rgba(243, 7, 7, 0.5), rgba(255, 0, 0, 0.5)), url('/pics/IMG-20220522-WA0007.jpg');
+    background:linear-gradient(rgba(243, 7, 7, 0.5), rgba(255, 0, 0, 0.5)), url('pics/IMG-20220522-WA0007.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -143,7 +143,7 @@
 
 @media screen and (max-width: 375px) {
      .container{
-        background:linear-gradient(rgba(243, 7, 7, 0.5), rgba(255, 0, 0, 0.5)), url('/pics/IMG-20220522-WA0006.jpg');
+        background:linear-gradient(rgba(243, 7, 7, 0.5), rgba(255, 0, 0, 0.5)), url('pics/IMG-20220522-WA0006.jpg');
     background-repeat: no-repeat;
     background-size: cover;
        display: flex;
